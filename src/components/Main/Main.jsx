@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import './Main.css'
-import { IoArrowBackSharp } from "react-icons/io5"
+import './Main.css';
+import { IoArrowBackSharp } from "react-icons/io5";
 
 function Main(props) {
     return (

@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Handelbar";
+  src: url("/fonts/Handelbar.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +15,7 @@ html,
 body,
 #root {
   height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Handelbar", sans-serif;
 }
 
 #root {

@@ -1,14 +1,14 @@
-import "./BotaoCustomizado.css";
+import "./CustomizedButton.css";
 
-function Botaocustomizado(props) {
-    const classes = ["Botaocustomizado_root"];
+function Customizedbutton(props) {
+    const classes = ["Customizedbutton_root"];
 
     switch(props.type) {
         case "primary":
-            classes.push("Botaocustomizado_primary");
+            classes.push("Customizedbutton_primary");
             break;
         case "secondary":
-            classes.push("Botaocustomizado_secondary")
+            classes.push("Customizedbutton_secondary")
             break;
         default:
             break;
@@ -21,4 +21,4 @@ function Botaocustomizado(props) {
     );
 }
 
-export default Botaocustomizado;
+export default Customizedbutton;
