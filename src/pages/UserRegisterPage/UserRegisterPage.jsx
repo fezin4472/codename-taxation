@@ -68,21 +68,23 @@ function USERREGISTERPAGE() {
                     setFormUser({ ...formUser, address: e.target.value })
                 }
             />
-            <CustomField
-                label="CPF"
-                value={formUser.cpf}
-                onChange={(e) =>
-                    setFormUser({ ...formUser, cpf: FormatWithMask(e.target.value, MASK_CPF)  })
-                }
-            />
-            <CustomField
-                label="Data De Nasc."
-                type="date"
-                value={formUser.birthdate}
-                onChange={(e) =>
-                    setFormUser({ ...formUser, birthdate: e.target.value })
-                }
-            />
+            <div>
+                <CustomField
+                    label="CPF"
+                    value={formUser.cpf}
+                    onChange={(e) =>
+                        setFormUser({ ...formUser, cpf: FormatWithMask(e.target.value, MASK_CPF)  })
+                    }
+                />
+                <CustomField
+                    label="Data De Nasc."
+                    type="date"
+                    value={formUser.birthdate}
+                    onChange={(e) =>
+                        setFormUser({ ...formUser, birthdate: e.target.value })
+                    }
+                />
+            </div>
             <CustomField
                 label="E-mail"
                 value={formUser.email}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 @font-face {
   font-family: "Handelbar";
   src: url("/fonts/Handelbar.woff2") format("woff2");
@@ -11,11 +13,20 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Handelbar", sans-serif;
+}
+
 html,
 body,
 #root {
   height: 100%;
-  font-family: "Handelbar", sans-serif;
 }
 
 #root {
